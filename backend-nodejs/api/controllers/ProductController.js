@@ -4,7 +4,7 @@ Product = mongoose.model('Product'),
 Validations = require('../utils/Validations');
 
 var incr = (function () {
-    var i = 1;
+    var i = 8;
 
     return function () {
         return i++;
